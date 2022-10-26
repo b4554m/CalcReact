@@ -3,11 +3,11 @@ import React, { useState } from 'react';
 const Tiers = (props) => {
     return (
         <React.Fragment>
-            <p>Target Tier</p>
+            <p>Tier</p>
             <select id="target-tier-select"
                 value={props.tier}
                 onChange={(e) => {
-                    if(props.onChange) {
+                    if (props.onChange) {
                         props.onChange(e.target.value);
                     }
                 }}>

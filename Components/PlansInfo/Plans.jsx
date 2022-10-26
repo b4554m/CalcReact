@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const Plans = (props) => {
     return (
         <React.Fragment>
-            <p>Target Plan</p>
+            <p>Plan</p>
             <select id="target-plan-select"
                 value={props.plan}
                 onChange={(e) => {

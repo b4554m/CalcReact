@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 const Discount = (props) => {
     return (
         <React.Fragment>
-            <p>Target Discount</p>
+            <p>Discount</p>
             <select id="target-discount-select"
                 value={props.discount}
                 onChange={(e) => {
